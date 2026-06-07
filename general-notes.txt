@@ -1,0 +1,104 @@
+AWS Global Infra has 200+ IT services available, accessible, scalable, reliable, network security (HTTPS,VPN)
+Network Latency is a huge point. AWS services can run network edge, ex: backend stores files.
+Encryption for data-at-rest is available for database replica and S3 bucket level.
+
+AWS Data Centers:
+HVAC, water, power, network, redundancy
+Physical Security, guards, perimeter, fences, etc.
+Locations, construction details and such as private.
+Use reclaimed water where possible.
+Scaling.
+26 regions, 84 AZs
+
+AWS Network Connectivity:
+Can use VPNs, can access EC2 through IP addresses
+Direct Connect circuit as well.
+
+AWS Cloud Computing:
+IaaS, PaaS, SaaS.
+
+IaaS:
+deploy services such as S3, EC2
+customers are responsible for OS, configs, apps, patching
+Amazon is responsible for the underlying hardware and make them run.
+
+PaaS:
+Customers deploys managed platform.
+Customer is responsible for limited config settings and all data.
+Amazon does the EC2 insts and underlying infra and services.
+
+SaaS:
+Customer deploys or deploys high level software
+Customer is responsible for limited config settings + all data
+Amazon manages the underlying VMs, software, and infra.
+
+SLA, service level agreements. Service credits, Billing, Dates of Updates.
+
+
+
+AWS Well Architected Framework:
+
+Operational Excellence:
+IT System monitoring, cloud watch, alarm and notifs for bad stuff.
+"normal activity" watch
+
+Security:
+data confidentiality
+data integrity
+IAM users, roles, threat detection
+
+Reliability;
+Distribution system design, regions, AZs, replication
+Disaster Recovery Planning
+Ability to change as needs change
+
+Performance Efficiency:
+Match services sizing to workload
+Monitor performance metrics and adjust sizing
+dashboard visuals.
+
+Cost Optimization:
+Remove unused
+use spot (use extra compute at a discount) and reserved instances
+cost budget alerts
+monitoring usage metrics
+
+Sustainability:
+AWS
+Customers
+
+AWS Services Matching:
+Business needs assessment
+offerings
+compute requirements
+storage requirements
+monitoring requirements
+AWS service sprawl reduction
+
+
+Network requirements:
+VPCs, subnets
+VPC peering
+VPN
+Direct Connect
+HTTPS
+Threat Monitoring
+
+Compute Requirements:
+EC2 instances
+Managed Services
+Application containers
+Container services
+
+Storage Requirements:
+s3 buckets
+Databases, NoSQL or NoSQL
+Security
+
+Monitoring and Security:
+CloudWatch 
+CloudTrail
+Amazon Detective
+Network ACLs 
+Security groups
+Firewalls
