@@ -102,3 +102,13 @@ Amazon Detective
 Network ACLs 
 Security groups
 Firewalls
+
+
+AWS CLI
+
+AWS
+aws Help
+AWS (command) Help
+
+
+AWS PowerShell Tools
