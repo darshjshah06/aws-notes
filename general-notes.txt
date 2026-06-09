@@ -112,3 +112,7 @@ AWS (command) Help
 
 
 AWS PowerShell Tools
+
+
+
+### will continue when relevant, right now focusing on AI Engineering
